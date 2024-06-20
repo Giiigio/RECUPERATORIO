@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.figura {
+    position: relative;
+    width: 100px;
+    height: 300px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.cabeza {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width: 98px;
+    height: 65px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.ojo {
+    position: absolute;
+    top: 25px;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.ojo.iz {
+    left: 20px;
+}
+
+.ojo.der {
+    right: 20px;
+}
+
+.boca {
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+}
+
+.body {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    width: 70px;
+    height: 100px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+}
+
+.brazo {
+    position: absolute;
+    top: 85px;
+    width: 20px;
+    height: 50px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+}
+
+.brazo.iz {
+    left: -5px;
+}
+
+.brazo.der {
+    right: -5px;
+}
+
+.piernas {
+    position: absolute;
+    top: 180px;
+    left: 25px;
+    width: 50px;
+    height: 100px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+}
+
+.base {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 80px;
+    height: 20px;
+    background-color: #e2a857;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.nombre {
+    font-family: 'Arial', sans-serif;
+    font-size: 60px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-align: center; 
+    margin: 20px; 
+}
+
+
+.G { background: #ff6347; } 
+.E { background: #4682b4; }
+.R { background: #32cd32; }
+.S { background: #ffa500; }
+.O { background: #6a5acd; }
+.N { background: #ff1493; }
